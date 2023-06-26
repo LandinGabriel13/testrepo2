@@ -11,3 +11,6 @@ str(autos)
 ggplot(data = autos) +
   geom_point(mapping = aes(x = caballos, y = millas)) +
   geom_smooth(mapping = aes(x = caballos, y = millas), method = lm)
+# Crear histogramas de las variables de interés
+
+# Crear gráficos de barras
