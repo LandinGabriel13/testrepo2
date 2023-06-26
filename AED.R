@@ -7,7 +7,7 @@ autos <- mtautos
 head(autos)
 #estructura de los datos
 str(autos)
-# scatterplot millas en relación a los caballos
+# scatterplot millas por galón en relación a los caballos de fuerza
 ggplot(data = autos) +
   geom_point(mapping = aes(x = caballos, y = millas)) +
   geom_smooth(mapping = aes(x = caballos, y = millas), method = lm)
